@@ -1,0 +1,165 @@
+div.main {
+    display: inline-block;
+    margin: 5px;
+    width: 368px;
+    border: 2px solid rgb(204, 214, 227);
+    height: 219px;
+    padding: 2px;
+    border-radius: 5px;
+    
+    /*background-image: url('mtbg.jpg');*/
+
+    
+}
+img.bg{
+  margin-left: 161px;
+  display: inline;
+  position: relative;
+  width: 182px;
+  margin-top: 15px;
+  opacity: 0.5;
+  
+}
+span.banner {
+    height: 70px;
+    background-color: #ffcc01;
+    
+    display: inline-block;
+    position: relative;
+    margin-bottom: 30px;
+    width: 100%;
+
+}
+img.hlogo{
+    width: 200px;
+    margin-left: 5px;
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+}
+h2.btext{
+    color: red;
+    display: inline-block;
+    margin-left: 240px;
+    margin-top: 38px;
+    position: absolute;
+}
+div.filler {
+    height: 10px;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+
+}
+.poster{
+    width: 148px;
+}
+p {
+    width: 214px;
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 90px;
+    font-size: x-small;
+
+}
+span.imgg {
+    position: absolute;
+    display: inline-block;
+
+}
+
+span.title {
+    display: inline-block;
+    position: absolute;
+    margin-left: 154px;
+    margin-top: -20px;
+}
+span.rating {
+    display: inline-block;
+    position: absolute;
+    margin-left: 325px;
+    border-style: none none solid none;
+    border-width:4px
+    
+}
+span.age {
+  display: inline-block;
+  position: absolute;
+  margin-left: 153px;
+  border-style: none none solid none;
+  border-width: 4px;
+  z-index: 1;
+
+}
+span.disc {
+    display: inline-block;
+    margin-left: 154px;
+    margin-top: -26px;
+    
+}
+span.footer{
+  display: inline-block;
+  position: relative;
+  width: 100%;
+
+  
+}
+span.genere {
+    display: inline-block;
+    position: relative;
+    margin-left: 154px;
+    margin-top: 8px;
+}
+span.dur {
+    display: inline-block;
+    margin-left: 28px;
+    position: absolute;
+    margin-top: 8px;
+
+}
+
+page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  }
+  page[size="A4"] {  
+    width: 21cm;
+    height: 29.7cm; 
+  }
+  page[size="A4"][layout="landscape"] {
+    width: 29.7cm;
+    height: 21cm;  
+  }
+  page[size="A3"] {
+    width: 29.7cm;
+    height: 42cm;
+  }
+  page[size="A3"][layout="landscape"] {
+    width: 42cm;
+    height: 29.7cm;  
+  }
+  page[size="A5"] {
+    width: 14.8cm;
+    height: 21cm;
+  }
+  page[size="A5"][layout="landscape"] {
+    width: 21cm;
+    height: 14.8cm;  
+  }
+  @media print {
+    body, page {
+      background: white;
+      margin: 0;
+      box-shadow: 0;
+    }
+  }
+ html {
+     margin: 0px 5px;
+ }
+ body{
+    font-family: 'Proxima Nova',sans-serif;
+ }
