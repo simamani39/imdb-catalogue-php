@@ -2,6 +2,7 @@
 <?php
 // this is an alternative way to produce the jpeg
 //uses google's api to take screenshot of the page
+// switched to imagemagic extention pdf-> jpeg for better quality
 $yourdomain='https://yourdomain.com';
 $new_url = $yourdomain.'/yourpage.html';
 $url     = 'https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url='.$new_url;

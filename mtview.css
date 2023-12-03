@@ -61,6 +61,8 @@ p {
     text-overflow: ellipsis;
     height: 90px;
     font-size: x-small;
+    text-align: justify;
+    text-justify: inter-word;
 
 }
 span.imgg {
@@ -113,7 +115,7 @@ span.genere {
 }
 span.dur {
     display: inline-block;
-    margin-left: 28px;
+    margin-left: 20px;
     position: absolute;
     margin-top: 8px;
 

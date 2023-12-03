@@ -1,7 +1,7 @@
 <?php
 ini_set('display_errors', 1);
 require 'vendor/autoload.php';
-    // reference the Dompdf namespace
+// reference the Dompdf namespace
 use Dompdf\Dompdf;
 use Dompdf\Options;
 $options = new Options;
