@@ -26,7 +26,7 @@ $output = $dompdf->output();
 file_put_contents('mv.pdf', $output); //
     $im = new Imagick();
 $im->setResolution(300, 300);     //set the resolution of the resulting jpg
-$im->readImage('mv.pdf[0]');    //[0] for the first page
+$im->readImage(__DIR__ .'/mv.pdf[0]');    //[0] for the first page
 $im->setImageFormat('jpg');
 //$im->writeImage('thumb.jpg'); // to save in in the local dir but since we dont need the jpg saved locally
 header('Content-Type: image/jpeg');
